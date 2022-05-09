@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.1.2\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\client_project.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\client_project.dir/objects.a @CMakeFiles\client_project.dir\objects1.rsp
+C:\MinGW\bin\g++.exe  -pthread -lboost_filesystem -lboost_system -g   -Wl,--whole-archive CMakeFiles\client_project.dir/objects.a -Wl,--no-whole-archive  -o client_project.exe -Wl,--out-implib,libclient_project.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\client_project.dir\linklibs.rsp
